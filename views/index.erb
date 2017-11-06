@@ -1,0 +1,6 @@
+<% @top_5_posts.each_with_index |i, post| do %>
+<h2><%= result['title'] %></h2>
+<p style="font-size: 0.6em;"><%= result['name'] (result['email']) %></p>
+<img src="/images/<%= i %>.jpg" width="400px" height="267px" />
+<p><%= result['content'] %></p>
+<% end %>
